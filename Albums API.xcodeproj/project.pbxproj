@@ -110,11 +110,11 @@
 				A8DD8451296D86040009C6A0 /* ViewController.swift */,
 				A85410F3296E722A00C6295E /* TableViewCell.swift */,
 				A85410F5296E793600C6295E /* GetApiRequest.swift */,
+				A85410F7296E7A7E00C6295E /* AlbumsModel.swift */,
 				A8DD8453296D86040009C6A0 /* Main.storyboard */,
 				A8DD8456296D86050009C6A0 /* Assets.xcassets */,
 				A8DD8458296D86050009C6A0 /* LaunchScreen.storyboard */,
 				A8DD845B296D86050009C6A0 /* Info.plist */,
-				A85410F7296E7A7E00C6295E /* AlbumsModel.swift */,
 			);
 			path = "Albums API";
 			sourceTree = "<group>";

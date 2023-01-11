@@ -14,6 +14,7 @@ class AlbumsModel: NSObject {
     var title : String?
     
     init(ditionary : [String : Any]) {
+        super.init()
         userId = ditionary["userId"] as? Int
         id = ditionary["id"] as? Int
         title = ditionary["title"] as? String
