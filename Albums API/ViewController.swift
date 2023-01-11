@@ -40,6 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let tableViewCell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.identifier, for: indexPath) as! TableViewCell
         let album = AlbumData[indexPath.row]
+        tableViewCell.userId.text = "\(album.userId!)"
         tableViewCell.idLBL.text = "\(album.id!)"
         tableViewCell.titleLBL.text = "\(album.title!)"
         return tableViewCell
